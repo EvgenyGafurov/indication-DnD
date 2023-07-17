@@ -1,0 +1,124 @@
+
+.container_H{
+    position: absolute;
+    width:314px;
+    height:294px;
+    margin: 0;
+    top: 0;
+    cursor: move;
+    user-select: none;
+
+}
+
+
+.container_arrow{
+    position: absolute;
+    top: 150.2px;
+    left: 156.6px;
+    margin: auto;
+    transform-origin: center;
+    transform: rotate(0deg);
+}
+
+
+.arrow_H {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+
+
+.container_triangle_H{
+    position:absolute;
+    top: 8px;
+    left: 140px;
+    height: 142px;
+    width: 35px;
+    z-index: 9999;
+    transform-origin: bottom;
+    transform: rotate(0deg);
+
+}
+
+
+.arrowH_meaning{
+    position: absolute;
+    width: 60px;
+    height: 36px;
+    left: 123px;
+    top: 172px;
+    color:  #fff;
+    background: #647D89;
+    box-shadow: inset 0px -2px 0px #9CB9C8;
+    border-radius: 4px;
+    outline: none;
+}
+
+
+.container_V{
+    position: absolute;
+    margin: 0;
+    top: 0;
+    left: 323px;
+    height: 294px;
+    width: 277px;
+    user-select: none;
+}
+
+
+.container_arrow_V{
+    position: absolute;
+    top: 201px;
+    left: 82px;
+    width: 155px;
+    height: 36px;
+    transform-origin: right;
+}
+
+
+
+.container_triangle_V{
+    position: absolute;
+    top: 204px;
+    left: 16px;
+    width: 220px;
+    height: 35px;
+    margin: 0;
+    transform-origin: right;
+    transform: rotate(0deg);
+    cursor: move;
+}
+
+.triangle_V{
+    transform: rotate(-90deg);
+}
+
+
+
+.triangleV_meaning{
+    position: absolute;
+    width: 46px;
+    height: 36px;
+    left: 15px;
+    top: 5px;
+    color:  #fff;
+    background: #647D89;
+    box-shadow: inset 0px -2px 0px #9CB9C8;
+    border-radius: 4px;
+    outline: none;
+
+}
+
+.arrowV_meaning{
+    position: absolute;
+    width: 60px;
+    height: 36px;
+    left: 155px;
+    top: 172px;
+    color:  #fff;
+    background: #647D89;
+    box-shadow: inset 0px -2px 0px #9CB9C8;
+    border-radius: 4px;
+    outline: none;
+}
